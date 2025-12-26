@@ -35,6 +35,7 @@ Apply the migration files of the created app to the database
 Execute Django admin using localhost and create details for 10 entries
 
 ## PROGRAM
+~~~
 models.py
 from django.db import models
 from django.contrib import admin
@@ -51,7 +52,7 @@ class EmployeeAdmin(admin.ModelAdmin):
   from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
-
+~~~
 ## OUTPUT
 <img width="1902" height="962" alt="image" src="https://github.com/user-attachments/assets/a2b30aae-853b-4de6-b0d9-49d13f9fee9b" />
 
